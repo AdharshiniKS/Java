@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Project {
 
-    private static final String jdbcURL = "jdbc:mysql://localhost:1506/DB2"; // Update with your database URL
-    private static final String username = "root"; // Update with your MySQL username
-    private static final String password = "Adhu@2006"; // Update with your MySQL password
+    private static final String jdbcURL = "jdbc:mysql://localhost:1506/DB2"; 
+    private static final String username = "root"; 
+    private static final String password = "Adhu@2006"; 
 
     public static void main(String[] args) {
         Project system = new Project();
@@ -27,7 +27,7 @@ public class Project {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1 -> addFeedback(scanner);
